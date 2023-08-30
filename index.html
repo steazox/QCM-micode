@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QCM à Choix Multiple</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="center-container">
+        <div id="startScreen">
+            <h1>QCM à Choix Multiple</h1>
+            <p>Cliquez sur le bouton ci-dessous pour commencer le questionnaire.</p>
+            <button id="startButton">Commencer</button>
+        </div>
+        <div id="quizScreen" style="display: none;">
+            <div id="progressBar"></div>
+            <form id="quizForm">
+                <h1>QCM à Choix Multiple</h1>
+                <div id="questionContainer">
+                    <!-- Les questions seront ajoutées dynamiquement ici -->
+                </div>
+                <div id="resultsScreen" style="display: none;">
+                    <h2>Résultats</h2>
+                    <div id="score"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+<!-- https://github.com/steazox/QCM-micode.git -->
